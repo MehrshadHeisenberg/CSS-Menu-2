@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS Menu 2</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="sidebar">
+          <figure class="sidebar__profile-img-box mar-bot-32">
+            <img
+              src="img/profile_img.png"
+              alt="Profile image"
+              class="sidebar__profile-img"
+            />
+          </figure>
+          <div class="sidebar__icons">
+            <ul class="sidebar__list">
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#profile"></use>
+                </svg>
+              </li>
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#profile-2"></use>
+                </svg>
+              </li>
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#save-2"></use>
+                </svg>
+              </li>
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#profile-add"></use>
+                </svg>
+              </li>
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#call"></use>
+                </svg>
+              </li>
+            </ul>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-icon sidebar__list-icon--settings">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#setting"></use>
+                </svg>
+              </li>
+              <li class="sidebar__list-icon">
+                <svg class="sidebar__icon">
+                  <use xlink:href="sprite.svg#questions"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dashboard">
+          <span class="dashboard__header mar-bot-8">Telegram Dashboard</span>
+          <span class="dashboard__number mar-bot-8">+12706332571</span>
+          <a
+            href="https://github.com/MCKH03"
+            target="_blank"
+            class="name mar-bot-55"
+            >Mehrshad Cheshm Khavari</a
+          >
+          <div class="dashboard__input-box mar-bot-16">
+            <svg class="search">
+              <use xlink:href="sprite.svg#search"></use>
+            </svg>
+
+            <input type="search" class="input" placeholder="search" />
+            <label for="search" class="input-label">Search</label>
+          </div>
+          <div class="dashboard__for mar-bot-60">
+            <input type="checkbox" class="check" id="check" />
+            <label for="check" class="checkbox__label checkbox__label--checked"
+              >For me</label
+            >
+            <label
+              for="check"
+              class="checkbox__label checkbox__label--unchecked"
+              >For others</label
+            >
+          </div>
+          <ul class="dashboard__list">
+            <li class="dashboard__list-item">
+              <svg class="dashboard__icon">
+                <use xlink:href="sprite.svg#list"></use>
+              </svg>
+              <span class="dashboard__list-item__text">Chat settings</span>
+            </li>
+            <li class="dashboard__list-item">
+              <svg class="dashboard__icon">
+                <use xlink:href="sprite.svg#security"></use>
+              </svg>
+              <span class="dashboard__list-item__text"
+                >Privacy and Security</span
+              >
+            </li>
+            <li class="dashboard__list-item">
+              <svg class="dashboard__icon">
+                <use xlink:href="sprite.svg#bell"></use>
+              </svg>
+              <span class="dashboard__list-item__text"
+                >Notifications and Sounds</span
+              >
+            </li>
+            <li class="dashboard__list-item">
+              <svg class="dashboard__icon">
+                <use xlink:href="sprite.svg#folder"></use>
+              </svg>
+              <span class="dashboard__list-item__text">Chat folders</span>
+            </li>
+            <li class="dashboard__list-item">
+              <svg class="dashboard__icon">
+                <use xlink:href="sprite.svg#status"></use>
+              </svg>
+              <span class="dashboard__list-item__text">Data and Storage</span>
+            </li>
+            <li class="dashboard__list-item dashboard__list-item--language">
+              <div class="language">
+                <svg class="dashboard__icon">
+                  <use xlink:href="sprite.svg#globe"></use>
+                </svg>
+                <span class="dashboard__list-item__text">Language</span>
+              </div>
+              <span class="language-kind">English</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
